@@ -9,10 +9,7 @@ body{
 
 main{
     display: flex;
-    justify-content: space-around;
-    align-content: center;
     align-items: center;
-    width: 960px;
     height: 530px;
 }
 
@@ -86,7 +83,7 @@ section{
 article{
     width: 300px;
     height: 529px;
-    margin: 18px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -109,25 +106,25 @@ img{
     top:80px;
 }
 
-.fondobatman{
+section main article div.fondobatman{
+    position: relative;
+    background-image: url("../img/fondoBatman.png");
+    background-size:cover;
+}
+
+div.fondobatman2{
     position: relative;
     background-image: url("../img/fondoBatman.png");
     background-size:300px, 193px;
 }
 
-.fondobatman2{
-    position: relative;
-    background-image: url("../img/fondoBatman.png");
-    background-size:300px, 193px;
-}
-
-.fondoharley{
+div.fondoharley{
     position: relative;
     background-image: url("../img/fondoHarley.png");
     background-size:300px, 193px;
 }
 
-.corazoncito{
+div img.corazoncito{
     position: absolute;
     top: 10px;
     left: 10px;
