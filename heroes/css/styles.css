@@ -23,6 +23,11 @@ main{
     padding: 10px;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
 h1{
     background-color: #00669F;
     margin:0px;
@@ -102,16 +107,19 @@ img{
 }
 
 .fondobatman{
+    position: relative;
     background-image: url("../img/fondoBatman.png");
     background-size:300px, 193px;
 }
 
 .fondobatman2{
+    position: relative;
     background-image: url("../img/fondoBatman.png");
     background-size:300px, 193px;
 }
 
 .fondoharley{
+    position: relative;
     background-image: url("../img/fondoHarley.png");
     background-size:300px, 193px;
 }
