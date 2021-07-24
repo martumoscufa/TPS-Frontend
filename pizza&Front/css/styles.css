@@ -1,6 +1,198 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-header{
-    display: flex;
-    
+
+*{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin:0px;
+    padding:0px;
 }
 
+body{
+    width: 1024px;
+    margin: auto;
+    background: #E5E5E5;
+}
+
+ /*ENCABEZADO PARTE LOGO*/
+header{
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    margin: 10px 10px 10px 20px;
+}
+
+header div.encabezadologo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+header div h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+header div h1 span.pizza{
+    color: #39B24A;
+}
+
+header div h1 span.front{
+    color: red;
+}
+
+/* ENCABEZADO PARTE NAV */
+header nav{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+header nav h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #F3F3F3;
+    padding-right: 13px;
+}
+
+/* MAIN SECCION 1 */
+main{
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+main section.delivery{
+    background-image: url("../img/delivery.jpg");
+    background-size: 490px 350px;
+    width: 490px;
+    height: 350px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 19px;
+    border-radius: 5px;
+}
+
+main section.delivery h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FC200C;
+    padding:20px 119px 302px 20px;
+}
+
+main section.delivery h2 span{
+    color:white;
+    font-weight: bold;
+}
+
+/* MAIN SECCION 2 */
+main section.pizza{
+    margin: auto;
+    background-color: white;
+    background-size: 490px 350px;
+    width: 490px;
+    height: 350px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 19px;
+    border-radius: 5px;
+    position: relative;
+}
+
+main section.pizza h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FC200C;
+    text-align: center;
+    padding: 26px 160px 58px 160px;
+}
+
+main section.pizza h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #222222;
+    padding-left: 69px;
+    padding-bottom: 20px;
+}
+
+main section.pizza ol{
+    padding-left: 51px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+main section.pizza ol li{
+    padding-bottom: 10px;
+}
+
+main section img{
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    top:132px;
+    right: 74px;
+    bottom: 89px;
+    left: 325px;
+}
+
+ /* FOOTER PARTE NAV */
+ footer nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+footer nav h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #F3F3F3;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* FOOTER PARTE LOGO */
+footer{
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    margin: 10px 10px 10px 20px;
+}
+
+footer div.footerlogo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+footer div h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    padding-right: 42px;
+}
+
+footer div h2 span.pizza{
+    color: #39B24A;
+}
+
+footer div h2 span.front{
+    color: red;
+}

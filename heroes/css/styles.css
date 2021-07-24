@@ -9,6 +9,9 @@ body{
 
 main{
     display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
     width: 960px;
     height: 530px;
 }
