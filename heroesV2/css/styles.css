@@ -8,13 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
+/*HEADER*/
 .header1{
     background: #D1891C;
     margin: 0px;
@@ -44,6 +38,89 @@ h1{
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
+ /*SECTION*/
+ section{
+    margin-top: 153px;
+    margin-bottom: 150px;
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.mas {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    bottom: 50%;
+    width: 80px;
+}
+
+/*ARTICLE*/
+article{
+    margin: 20px;
+    text-align: center;
+}
+section main article div{
+    height: 180px;
+}
+
+/*DIV FONDO BATMAN*/
+section main article div.fondobatman{
+    background-size:cover;
+    position: relative;
+    background-image: url("../img/fondoBatman.png");
+}
+img{
+    border-radius:60%;
+    position: relative;
+    z-index: 2;
+    top:110px;
+    width: 135px;
+}
+div.fondomaravilla{
+    background-size:cover;
+    position: relative;
+    background-image: url("../img/fondoMujerMaravilla.png");
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+div.fondoharley{
+    background-size:cover;
+    position: relative;
+    background-image: url("../img/Fondo2Harley.png");
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%; 
+}
+div.fondosuperman{
+    background-size:cover;
+    position: relative;
+    background-image: url("../img/FondoSuperman.png");
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+div img.corazoncito{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 36px;
+}
+
+/*DIV DIVISION2*/
+.division2{
+    width: 350px;
+    height: 385px;
+    background-color: #F3F3F3; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 h2{
     font-style: normal;
     font-weight: normal;
@@ -52,89 +129,12 @@ h2{
     margin-bottom: 0px;
     margin-top: 0px;
 }
-
-h3{
-    background-color: #00669F;
-    color: #FFF9F9;
-    font-size: 16px;
-    font-weight: lighter;
-    padding: 16px;
-}
-
-section{
-    margin-top: 153px;
-    margin-bottom: 150px;
-}
-
-article{
-    margin: 20px;
-    text-align: center;
-}
-
 p{
     margin:120px,17px,104px,16px;
     margin: 16.5px;
     text-align: left;
     font-size: 15px;
 }
-
-.division2{
-    width: 350px;
-    height: 385px;
-    background-color: #F3F3F3; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: relative;
-}
-
-img{
-    border-radius:60%;
-    position: relative;
-    z-index: 2;
-    top:110px;
-    width: 135px;
-}
-
-section main article div{
-    height: 180px;
-}
-
-section main article div.fondobatman{
-    background-size:cover;
-    position: relative;
-    background-image: url("../img/fondoBatman.png");
-}
-
-div.fondomaravilla{
-    background-size:cover;
-    position: relative;
-    background-image: url("../img/fondoMujerMaravilla.png");
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%;
-}
-
-div.fondoharley{
-    background-size:cover;
-    position: relative;
-    background-image: url("../img/Fondo2Harley.png");
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%; 
-}
-
-div.fondosuperman{
-    background-size:cover;
-    position: relative;
-    background-image: url("../img/FondoSuperman.png");
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%;
-}
-
-div img.corazoncito{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 36px;
-}
-
 div button{
     width: 129px;
     background: #00669F;
@@ -148,15 +148,23 @@ div button{
     border-color: transparent;
 }
 
+/*FOOTER*/
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+h3{
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 16px;
+}
 .logo{
     padding-right: 20px;
     border-radius:0%;
     position: absolute;
     right: 20px;
     top: 7px;
-}
-
-footer{
-    text-align: center;
-    position: relative;
 }
