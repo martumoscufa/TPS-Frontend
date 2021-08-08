@@ -5,7 +5,7 @@
     font-family: 'Merienda','sans-serif';
 }
 body{
-    background-image: url("/img/FondoGhibli.jpg");
+    background-image: url("../img/FondoGhibli.jpg");
     background-size:auto;
 }
 /*HEADER*/
