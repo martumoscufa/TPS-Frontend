@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda','sans-serif';
+}
+body{
+    background-image: url("/img/FondoGhibli.jpg");
+    background-size:auto;
+}
+/*HEADER*/
+header{
+    height: 80px;
+}
+header h2{
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: rgb(2, 80, 80);
+}
+/*MAIN*/
+main{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: max-content;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+main section{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(239, 255, 246, 0.589);
+    border-radius: 10px;
+}
+main section h1{
+    font-size: 40px;
+    width: 380px;
+    color: lavender;
+    background-color: rgba(2, 80, 80, 0.842);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main section ul{
+    display: flex;
+    flex-direction: column;
+}
+main section ul li{
+    font-size: 30px;
+    text-align: left;
+    color:rgba(5, 8, 34, 0.712);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+main section ul li a{
+    text-decoration: none;
+    color:rgba(5, 8, 34, 0.712);
+}
+
+/*FOOTER*/
+footer{
+    color: lavender;
+    background-color: rgb(2, 80, 80);
+    text-align: center;
+    
+}
+footer h3{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
