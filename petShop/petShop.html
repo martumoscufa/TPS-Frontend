@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>PetShop</title>
 </head>
@@ -16,17 +17,20 @@
         </nav>
     </div>
     <header>
-        <section>
+        <section class="section1">
                 <h2 class="encabezado">
                     <img src="./img/Cat.png" alt="Gato">
                     <span>Front</span>Cat&Dog
                     <img src="./img/Dog.png" alt="Perro">
                 </h2>
+        </section>
+        <section class="section2">
+                <i class="material-icons hamburguesa">menu</i>
                 <nav>
-                    <h3><img src="./img/pawprint _1.png" alt="Patita">Categorías</h3>
-                    <h3><img src="./img/pawprint _1.png" alt="Patita">Pets</h3>
-                    <h3><img src="./img/pawprint _1.png" alt="Patita">Nosotros</h3>
-                    <h3><img src="./img/pawprint _1.png" alt="Patita">Contactanos</h3>
+                    <h3><img src="./img/pawprint 4.png" alt="Patita">Categorías</h3>
+                    <h3><img src="./img/pawprint 4.png" alt="Patita">Pets</h3>
+                    <h3><img src="./img/pawprint 4.png" alt="Patita">Nosotros</h3>
+                    <h3><img src="./img/pawprint 4.png" alt="Patita">Contactanos</h3>
                 </nav>
         </section>
     </header>
@@ -66,25 +70,25 @@
                 </article>
             </div>
         </section>
-        <section class=contactar>
-            <h2 class="contactar">Contáctanos</h2>
-            <h3 class="contactanos">Nombre y Apellido</h3>
-            <h3 class="contactanos">Ingresá tu correo electrónico</h3>
-            <h3 class="contactanos">Teléfono</h3>
-            <nav>
-                <h3 class="reset">Resetear</h3>
-                <h3 class="enviar">Enviar</h3>
-            </nav>
-        </section>
+        <form class=contactar>
+            <h3 class="contactanos">Contáctanos</h3>
+            <input type="text"  placeholder="Nombre y Apellido">
+            <input type="email"  placeholder="Ingresá tu correo electrónico">
+            <input type="number"  placeholder="Teléfono">
+            <div>
+                <button class="reset" type="reset">Resetear</button>
+                <button class="enviar" type="submit">Enviar</button>
+            </div>
+        </form>
         <section class="subs">
             <div class="subscripcion">
                 <img class="sobre" src="./img/Group.png" alt="Sobre">
                 <h2 class="suscribir">Suscríbete para más novedades</h2>
             </div>
-            <div class="subscripcion2">
-                <h3 class="correo">Ingresá tu correo electrónico</h3>
-                <h3 class="subscribirse">Subscribirme</h3>
-            </div>
+            <form class="subscripcion2">
+                <input type="email" class="correo" placeholder="Ingresá tu correo electrónico">
+                <button type="submit" class="subscribirse">Subscribirme</button>  
+            </form>
         </section>
     </main>
     <footer>
