@@ -1,127 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
 
-body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1440px;
-    font-family: 'Quicksand', sans-serif;
+.container-body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  font-family: "Quicksand", sans-serif;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
 }
 
-header{
-    background-image: url("../img/fondo-1.jpg");
-    display: flex;
-    align-items:center;
-    height: 300px;
-    width: 1440px;
+.container-main {
+  display: flex;
+  background-color: #fafeff;
+  width: 70%;
 }
 
-main{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    background-color: #d4f4ff;
+.section-l {
+  /* background-image: url("../img/fondo-1.jpg"); */
+  background-color: #f6f6f6;
+  height: 100%;
 }
 
-footer{
-    display: flex;
-    background: #1684af;
-    height: 37px;
-    justify-content: center;
-    align-items: center;
+.image {
+  border-radius: 50%;
+  border: 5px solid #cad6a3;
+  width: 250px;
+  margin: 20px 40px;
 }
 
-
-h1{
-    font-family: 'Antic Slab', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    color: #fcfcfc;
-    height: 60px;
-    width: 990px;
-    margin: 0px;
-    display: flex;
+.text-bold {
+  margin: 0px;
+  padding: 20px 0px 15px 30px;
+  font-weight: bold;
 }
 
-h2{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 4px;
-    padding-left: 10px;
-    width: 1041px;
-    height: 30px;
-    color: #e1eaee;
-    background: #2a92bb;
-    display: flex;
-    align-items: center;
+.text-normal {
+  margin: 0px;
+  padding: 0px 0px 10px 30px;
 }
 
-h3{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0px;
+.text-li {
+  margin: 10px 0px 10px 0px;
+  padding: 0%;
 }
 
-section{
-    margin:100px
+.section-r {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.container-name-aboutme {
+  padding: 0px 30px;
+  background-color: #cad6a3;
+  height: 300px;
+}
+.name {
+  font-size: 32px;
 }
 
-li{
-    display: flex;
-    padding-bottom: 10px;
+.text-proyect {
+  font-weight: bold;
+  margin: 0%;
+  padding: 0px 30px;
 }
 
-.letraCursivaYnegrita{
-    font-weight: bold;
-    font-style: italic;
+.text-proyect-location-time {
+  margin: 0%;
+  padding: 0px 30px;
 }
 
-.negrita{
-    font-weight: bold;
+.container-ul {
+  margin: 0px 30px;
+  padding: 0px 0px 0px 15px;
 }
 
-.texto{
-    display: flex;
-    flex-direction: column;
-    padding-left : 8px;
+.container-proyect {
+  margin-bottom: 15px;
+  padding-right: 30px;
 }
 
-.imagen{
-    border-radius: 100%;
-    width: 250px;
-    margin-left: 100px;
+/*responsive*/
+@media (max-width: 1100px) {
+  .container-main {
+    width: 80%;
+  }
 }
-
-.div{
-    display: flex;
-    flex-direction: column;
+@media (max-width: 970px) {
+  .container-main {
+    width: 85%;
+  }
 }
-
-i.fab{
-    color:#FFFFFF;
-    padding-left: 15px;
-    font-size: 25px;
+@media (max-width: 915px) {
+  .name {
+    font-size: 28px;
+  }
 }
-
-.textobanner{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 4px;
-    padding-left: 240px;
-    width: 500px;
-    height: 30px;
-    color: #e1eaee;
-    background: #2a92bb65;
-    display: flex;
-    align-items: center;
+@media (max-width: 865px) {
+  .container-main {
+    width: 100%;
+  }
 }
-
-a{
-    text-decoration: none;
+@media (max-width: 740px) {
+  .container-main{
+    flex-direction: column-reverse;
+  }
 }
+@media (max-width: 400px) {
+    .name{
+        font-size: 24px;
+    }
+  }
